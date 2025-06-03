@@ -1,0 +1,7 @@
+build/
+venv/
+csv_folder/
+pdf_folder/
+text_folder/
+
+main.spec
