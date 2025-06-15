@@ -90,7 +90,7 @@ class ConvertPdfToCsv:
             # CSVファイルとして保存 (UTF-8 with BOMでExcelでの文字化けを防ぐ)
             combined_df.to_csv(csv_path, index=False, encoding='utf-8-sig')
 
-            print(f"'{csv_path}' から抽出された表を '{csv_path}' に変換しました。")
+            print(f"'{pdf_path}' から抽出された表を '{csv_path}' に変換しました。")
 
         except Exception as e:
             print(f"PDFからテキストへの変換中にエラーが発生しました: {e}")
